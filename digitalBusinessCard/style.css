@@ -1,0 +1,36 @@
+
+
+body{
+   
+
+   
+}
+@keyframes card{
+    from{background-color: #219ebc ;}
+    to{background-color: #8ecae6;}
+}
+
+img{
+    object-fit: cover;
+}
+
+.main{
+
+    animation-name: card;
+    animation-duration: 4s;
+    border: 2px solid #457b9d ;
+    color: white;
+    justify-content: center;
+
+    padding: 15px;
+    background-color: #03045e;
+    display: flex;
+    width: 400px;
+    margin: 50px auto 0 auto;
+    
+}
+.texts{
+    /* margin: 0 0 50px 30px; */
+    margin-left: 50px;
+
+}
